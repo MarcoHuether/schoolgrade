@@ -22,6 +22,7 @@ public class GradleList
     public void initDatabase()
     {
         logger.info("PostConstruct GradleList");
+        
         studentService.addStudent(new Student("Marco", "Hüther"));
         studentService.addStudent(new Student("Janina", "Hüther-Georgi"));
     }
