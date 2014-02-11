@@ -12,7 +12,7 @@ public class Exercise
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     
-    public String exerciseName;
+    private String exerciseName;
     
     protected Exercise()
     {
